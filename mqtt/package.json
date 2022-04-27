@@ -1,0 +1,21 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=iot:* nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jose <jmg24a@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tools": "file:../utils",
+    "debug": "^4.3.4",
+    "jsonschema": "^1.2.6",
+    "db": "file:../db",
+    "mosca": "^2.8.3",
+    "redis": "^4.0.6"
+  }
+}
